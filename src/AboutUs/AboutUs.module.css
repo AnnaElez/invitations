@@ -1,0 +1,25 @@
+.olive_branch {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.olive_branch img {
+    width: 600px;
+}
+
+.about_couple {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_couple section {
+    width: 600px;
+}
+
+.about_couple img {
+    width: 400px;
+}

@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Amanor;
+  src: url(../../public/fonts/BraindAmanor.otf);
+}
+
+@font-face {
+  font-family: SHK_Dzeragir;
+  src: url(../../public/fonts/SHK_Dzeragir.otf);
+}
+
+@font-face {
+  font-family: CosiArm;
+  src: url(../../public/fonts/CosiArm.ttf);
+}
+
+
+.wrapper {
+  height: 50vh;
+  width: 100vw;
+}
+
+.photo {
+  background: url("../../public/images/flowers.jpg") no-repeat;
+  height: 100%;
+  background-size: cover;
+}
+
+.text_wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding-left: 60px;
+}
+
+.photo h1 {
+  font-size: 32px;
+  font-family: CosiArm;
+}
+
+.date {
+  margin: 20px 0;
+}
+
+.photo hr {
+  border: 1px solid rgba(0, 0, 0, 0.416);
+  width: 400px;
+}
+
+.nice_text {
+  margin-top: 20px;
+  width: 400px;
+}
