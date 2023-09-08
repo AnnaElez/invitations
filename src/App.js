@@ -10,6 +10,7 @@ function App() {
       <TopNames />
       <AboutUs />
       <WeddingTimeline />
+      <WhenWhere/>
     </div>
   );
 }

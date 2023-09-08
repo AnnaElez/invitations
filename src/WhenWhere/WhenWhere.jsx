@@ -12,10 +12,11 @@ const WhenWhere = () => {
 
       <section className={classes.calendar}>
         <img src="images/calendar.png" alt="calendar" />
-      
+
         <p>Church:trindindon</p>
         <p>Place: blablablabla</p>
       </section>
+      <img src="images/footer_image.png" alt="olive" className={classes.footer_img}/>
     </div>
   );
 };

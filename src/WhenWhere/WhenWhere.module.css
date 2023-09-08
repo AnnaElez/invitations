@@ -1,7 +1,13 @@
 .wrapper {
   text-align: center;
+  position: relative;
 }
-
+.footer_img{
+  width: 40%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 .wrapper h2 {
   margin: 60px 0 30px;
   font-size: 24px;

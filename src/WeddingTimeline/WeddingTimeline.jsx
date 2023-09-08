@@ -17,6 +17,7 @@ export default function WeddingTimeline() {
           <a
             href="https://yandex.ru/maps/-/CDQvQYoJ"
             target="_blank"
+            rel="noreferrer"
             className={classes.link}
           >
             Չարենցի 17
@@ -35,6 +36,7 @@ export default function WeddingTimeline() {
           <a
             href="https://yandex.ru/maps/-/CDQvQJ0r"
             target="_blank"
+            rel="noreferrer"
             className={classes.link}
           >
             Այգեձորի 5
@@ -52,6 +54,7 @@ export default function WeddingTimeline() {
           <a
             href="https://yandex.ru/maps/-/CDQvQCoY"
             target="_blank"
+            rel="noreferrer"
             className={classes.link}
           >
             Ռաֆայել Իսրայելյան, 21
@@ -69,6 +72,7 @@ export default function WeddingTimeline() {
           <a
             href="https://yandex.ru/maps/-/CDQvQO5y"
             target="_blank"
+            rel="noreferrer"
             className={classes.link}
           >
             Լենինգրադյան, 1
@@ -86,6 +90,7 @@ export default function WeddingTimeline() {
           <a
             href="https://yandex.ru/maps/-/CDQvQ248"
             target="_blank"
+            rel="noreferrer"
             className={classes.link}
           >
             ք. Մասիս, Մխիթար Հերացու փող., 7/8
