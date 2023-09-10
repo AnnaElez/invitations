@@ -1,16 +1,14 @@
-import AboutUs from "./AboutUs/AboutUs";
 import "./App.css";
-import WeddingTimeline from "./WeddingTimeline/WeddingTimeline";
+import AboutUs from "./AboutUs/AboutUs";
 import TopNames from "./TopNames/TopNames";
-import WhenWhere from "./WhenWhere/WhenWhere";
+import Timeline from "./Timeline/Timeline";
 
 function App() {
   return (
     <div className="App">
       <TopNames />
       <AboutUs />
-      <WeddingTimeline />
-      <WhenWhere/>
+      <Timeline />
     </div>
   );
 }

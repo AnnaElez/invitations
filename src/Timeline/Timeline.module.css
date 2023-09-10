@@ -1,0 +1,33 @@
+.question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.button {
+    background-color: #285b14;
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-right: 12px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #285b14d3;
+}
+
+.question h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}

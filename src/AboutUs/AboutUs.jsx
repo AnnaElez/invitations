@@ -8,16 +8,15 @@ const AboutUs = () => {
       </section>
       <div className={classes.about_couple}>
         <section>
-          <h2>We're getting married</h2>
+          <h2>Մենք ամուսնանում ենք</h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Consequuntur debitis tempore reprehenderit id pariatur nostrum
-            consequatur, accusamus similique eveniet, reiciendis necessitatibus
-            quasi provident velit voluptatum rerum expedita repudiandae
-            perferendis rem!
+            Մենք ծանոթացանք քոլեջում երբ 14 տարեկան էինք։ Այդ վախտ Ռեբեկան չեր
+            պատկերացնում որ մի օր նրանք կամուսնան, բայց Ռուդոլֆը վստահ ա եղել։
+            Պարզվում է որ եթե մի բան շատ ուզենաս այդ անպայման կկատարվի։ 10 տարի
+            անց, հոկտեմբերի 31 նրանց հարսանիքի օընը։
           </p>
         </section>
-        <img src="images/couple.jpg" alt="couple" />
+        <img src="images/aboutUs.JPG" alt="couple" />
       </div>
     </div>
   );

@@ -8,46 +8,71 @@ import TimelineDot from "@mui/lab/TimelineDot";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import classes from "./WeddingTimeline.module.css";
 
-export default function WeddingTimeline() {
+export default function WeddingTimeline({ whosTimeline }) {
   return (
     <Timeline position="left">
-      <TimelineItem>
-        <TimelineOppositeContent>
-          10:30&nbsp;
-          <a
-            href="https://yandex.ru/maps/-/CDQvQYoJ"
-            target="_blank"
-            rel="noreferrer"
-            className={classes.link}
-          >
-            Չարենցի 17
-          </a>
-        </TimelineOppositeContent>
-        <TimelineSeparator>
-          <TimelineDot sx={{ bgcolor: "#626e57" }} />
-          <TimelineConnector sx={{ bgcolor: "#626e57" }} />
-        </TimelineSeparator>
-        <TimelineContent>Փեսայի տուն</TimelineContent>
-      </TimelineItem>
-
-      <TimelineItem>
-        <TimelineOppositeContent>
-          11:45&nbsp;
-          <a
-            href="https://yandex.ru/maps/-/CDQvQJ0r"
-            target="_blank"
-            rel="noreferrer"
-            className={classes.link}
-          >
-            Այգեձորի 5
-          </a>
-        </TimelineOppositeContent>
-        <TimelineSeparator>
-          <TimelineDot sx={{ bgcolor: "#80a472" }} />
-          <TimelineConnector sx={{ bgcolor: "#80a472" }} />
-        </TimelineSeparator>
-        <TimelineContent>Հարսի տուն</TimelineContent>
-      </TimelineItem>
+      {whosTimeline === "groom" && (
+        <>
+          <TimelineItem>
+            <TimelineOppositeContent>
+              10:00&nbsp;
+              <a
+                href="https://yandex.ru/maps/-/CDQvQYoJ"
+                target="_blank"
+                rel="noreferrer"
+                className={classes.link}
+              >
+                Չարենցի 17
+              </a>
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineDot sx={{ bgcolor: "#626e57" }} />
+              <TimelineConnector sx={{ bgcolor: "#626e57" }} />
+            </TimelineSeparator>
+            <TimelineContent>Փեսայի տուն</TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineOppositeContent>
+              12:00&nbsp;
+              <a
+                href="https://yandex.ru/maps/-/CDQvQJ0r"
+                target="_blank"
+                rel="noreferrer"
+                className={classes.link}
+              >
+                Այգեձորի 5
+              </a>
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineDot sx={{ bgcolor: "#80a472" }} />
+              <TimelineConnector sx={{ bgcolor: "#80a472" }} />
+            </TimelineSeparator>
+            <TimelineContent>Հարսի տուն</TimelineContent>
+          </TimelineItem>
+        </>
+      )}
+      {whosTimeline === "bride" && (
+        <>
+          <TimelineItem>
+            <TimelineOppositeContent>
+              11:00&nbsp;
+              <a
+                href="https://yandex.ru/maps/-/CDQvQJ0r"
+                target="_blank"
+                rel="noreferrer"
+                className={classes.link}
+              >
+                Այգեձորի 5
+              </a>
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineDot sx={{ bgcolor: "#80a472" }} />
+              <TimelineConnector sx={{ bgcolor: "#80a472" }} />
+            </TimelineSeparator>
+            <TimelineContent>Հարսի տուն</TimelineContent>
+          </TimelineItem>
+        </>
+      )}
       <TimelineItem>
         <TimelineOppositeContent>
           13:30&nbsp;

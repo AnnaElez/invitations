@@ -5,12 +5,14 @@ const TopNames = () => {
     <div className={classes.wrapper}>
       <div className={classes.photo}>
         <div className={classes.text_wrapper}>
-          <h1>Ռուդոլֆ և Ռեբեկկա</h1>
-          <p className={classes.date}>Date:16 september 2023</p>
-          <hr />
+          <h1>
+            Ռուդոլֆ Ֆրանգուլյան և <br />
+            Ռեբեկա Մինասյան
+          </h1>
+
           <p className={classes.nice_text}>
-            We can't wait to see you at our wedding. Hope you'll join us
-            throughout the whole day
+            Անհամբեր սպասում ենք ձեզ հոկտեմբերի 31 2023թ մեր ընտանիքի ստեղծման
+            օրը։
           </p>
         </div>
       </div>

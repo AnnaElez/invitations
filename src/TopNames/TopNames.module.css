@@ -15,12 +15,12 @@
 
 
 .wrapper {
-  height: 50vh;
+  height: 65vh;
   width: 100vw;
 }
 
 .photo {
-  background: url("../../public/images/flowers.jpg") no-repeat;
+  background: url("../../public/images/main.JPG") no-repeat;
   height: 100%;
   background-size: cover;
 }
@@ -34,12 +34,13 @@
 }
 
 .photo h1 {
-  font-size: 32px;
+  font-size: 28px;
   font-family: CosiArm;
 }
 
 .date {
   margin: 20px 0;
+  font-size: 24px;
 }
 
 .photo hr {
@@ -50,4 +51,5 @@
 .nice_text {
   margin-top: 20px;
   width: 400px;
+  font-size: 22px;
 }
