@@ -74,7 +74,7 @@ export default function WeddingTimeline({ whosTimeline }) {
               <TimelineConnector sx={{ bgcolor: "#80a472" }} />
             </TimelineSeparator>
             <TimelineContent>
-              <p className={classes.link}>Հարսի տուն</p>
+              <p className={classes.location}>Հարսի տուն</p>
             </TimelineContent>
           </TimelineItem>
         </>
