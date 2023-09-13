@@ -14,7 +14,7 @@ export default function WeddingTimeline({ whosTimeline }) {
       {whosTimeline === "groom" && (
         <>
           <TimelineItem>
-            <TimelineOppositeContent>
+            <TimelineOppositeContent >
               10:00&nbsp;
               <a
                 href="https://yandex.ru/maps/-/CDQvQYoJ"

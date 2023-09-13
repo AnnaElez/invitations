@@ -31,7 +31,7 @@
     }
 
     .olive_branch {
-        padding: clamp(4.018125rem, 0.0019rem + 10.71vw, 5.356875rem) 0;
+        padding: clamp(2.67875rem, 0.0012rem + 7.14vw, 3.57125rem) 0;
     }
 }
 
@@ -41,6 +41,6 @@
     }
 
     .olive_branch {
-        padding: clamp(2.143125rem, 0.0003rem + 10.7143vw, 4.018125rem) 0;
+        padding: clamp(1.42875rem, 0.0002rem + 7.1429vw, 2.67875rem) 0;
     }
 }
