@@ -15,7 +15,7 @@ export default function WeddingTimeline({ whosTimeline }) {
         <>
           <TimelineItem>
             <TimelineOppositeContent className={classes.location}>
-              10:00&nbsp;
+              10:00&nbsp; <br />
               <a
                 href="https://yandex.ru/maps/-/CDQvQYoJ"
                 target="_blank"
@@ -35,7 +35,7 @@ export default function WeddingTimeline({ whosTimeline }) {
           </TimelineItem>
           <TimelineItem>
             <TimelineOppositeContent className={classes.location}>
-              12:00&nbsp;
+              12:00&nbsp; <br />
               <a
                 href="https://yandex.ru/maps/-/CDQvQJ0r"
                 target="_blank"
@@ -59,7 +59,7 @@ export default function WeddingTimeline({ whosTimeline }) {
         <>
           <TimelineItem>
             <TimelineOppositeContent className={classes.location}>
-              11:00&nbsp;
+              11:00&nbsp; <br />
               <a
                 href="https://yandex.ru/maps/-/CDQvQJ0r"
                 target="_blank"
@@ -81,7 +81,7 @@ export default function WeddingTimeline({ whosTimeline }) {
       )}
       <TimelineItem>
         <TimelineOppositeContent className={classes.location}>
-          13:30&nbsp;
+          13:30&nbsp; <br />
           <a
             href="https://yandex.ru/maps/-/CDQvQCoY"
             target="_blank"
@@ -101,7 +101,7 @@ export default function WeddingTimeline({ whosTimeline }) {
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent className={classes.location}>
-          15:00&nbsp;
+          15:00&nbsp; <br />
           <a
             href="https://yandex.ru/maps/-/CDQvQO5y"
             target="_blank"
@@ -121,7 +121,7 @@ export default function WeddingTimeline({ whosTimeline }) {
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent className={classes.location}>
-          17:30&nbsp;
+          17:30&nbsp; <br />
           <a
             href="https://yandex.ru/maps/-/CDQvQ248"
             target="_blank"
