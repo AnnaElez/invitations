@@ -14,7 +14,7 @@ export default function WeddingTimeline({ whosTimeline }) {
       {whosTimeline === "groom" && (
         <>
           <TimelineItem>
-            <TimelineOppositeContent >
+            <TimelineOppositeContent className={classes.location}>
               10:00&nbsp;
               <a
                 href="https://yandex.ru/maps/-/CDQvQYoJ"
@@ -29,10 +29,12 @@ export default function WeddingTimeline({ whosTimeline }) {
               <TimelineDot sx={{ bgcolor: "#626e57" }} />
               <TimelineConnector sx={{ bgcolor: "#626e57" }} />
             </TimelineSeparator>
-            <TimelineContent>Փեսայի տուն</TimelineContent>
+            <TimelineContent>
+              <p className={classes.location}>Փեսայի տուն</p>
+            </TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent>
+            <TimelineOppositeContent className={classes.location}>
               12:00&nbsp;
               <a
                 href="https://yandex.ru/maps/-/CDQvQJ0r"
@@ -47,14 +49,16 @@ export default function WeddingTimeline({ whosTimeline }) {
               <TimelineDot sx={{ bgcolor: "#80a472" }} />
               <TimelineConnector sx={{ bgcolor: "#80a472" }} />
             </TimelineSeparator>
-            <TimelineContent>Հարսի տուն</TimelineContent>
+            <TimelineContent>
+              <p className={classes.location}>Հարսի տուն</p>
+            </TimelineContent>
           </TimelineItem>
         </>
       )}
       {whosTimeline === "bride" && (
         <>
           <TimelineItem>
-            <TimelineOppositeContent>
+            <TimelineOppositeContent className={classes.location}>
               11:00&nbsp;
               <a
                 href="https://yandex.ru/maps/-/CDQvQJ0r"
@@ -69,12 +73,14 @@ export default function WeddingTimeline({ whosTimeline }) {
               <TimelineDot sx={{ bgcolor: "#80a472" }} />
               <TimelineConnector sx={{ bgcolor: "#80a472" }} />
             </TimelineSeparator>
-            <TimelineContent>Հարսի տուն</TimelineContent>
+            <TimelineContent>
+              <p className={classes.link}>Հարսի տուն</p>
+            </TimelineContent>
           </TimelineItem>
         </>
       )}
       <TimelineItem>
-        <TimelineOppositeContent>
+        <TimelineOppositeContent className={classes.location}>
           13:30&nbsp;
           <a
             href="https://yandex.ru/maps/-/CDQvQCoY"
@@ -89,10 +95,12 @@ export default function WeddingTimeline({ whosTimeline }) {
           <TimelineDot sx={{ bgcolor: "#5a8c46" }} />
           <TimelineConnector sx={{ bgcolor: "#5a8c46" }} />
         </TimelineSeparator>
-        <TimelineContent>Սուրբ Սարգիս եկեղեցի</TimelineContent>
+        <TimelineContent>
+          <p className={classes.location}>Սուրբ Սարգիս եկեղեցի</p>
+        </TimelineContent>
       </TimelineItem>
       <TimelineItem>
-        <TimelineOppositeContent>
+        <TimelineOppositeContent className={classes.location}>
           15:00&nbsp;
           <a
             href="https://yandex.ru/maps/-/CDQvQO5y"
@@ -107,10 +115,12 @@ export default function WeddingTimeline({ whosTimeline }) {
           <TimelineDot sx={{ bgcolor: "#366c21" }} />
           <TimelineConnector sx={{ bgcolor: "#366c21" }} />
         </TimelineSeparator>
-        <TimelineContent>Համալիրի զագս</TimelineContent>
+        <TimelineContent className={classes.location}>
+          <p className={classes.location}>Համալիրի զագս</p>
+        </TimelineContent>
       </TimelineItem>
       <TimelineItem>
-        <TimelineOppositeContent>
+        <TimelineOppositeContent className={classes.location}>
           17:30&nbsp;
           <a
             href="https://yandex.ru/maps/-/CDQvQ248"
@@ -124,7 +134,9 @@ export default function WeddingTimeline({ whosTimeline }) {
         <TimelineSeparator>
           <TimelineDot sx={{ bgcolor: "#285b14" }} />
         </TimelineSeparator>
-        <TimelineContent>Morena Restaurant Complex</TimelineContent>
+        <TimelineContent>
+          <p className={classes.location}>Morena Restaurant Complex</p>
+        </TimelineContent>
       </TimelineItem>
     </Timeline>
   );
