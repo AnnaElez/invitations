@@ -1,40 +1,44 @@
 .olive_branch {
-    display: flex;
-    justify-content: center;
-    padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
 }
 
 .olive_branch img {
-    width: 100%;
+  width: 85%;
 }
 
 .about_couple {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .about_couple section {
-    width: 45%;
-    line-height: 1.5;
+  width: 45%;
+  line-height: 1.5;
 }
 
 .about_couple img {
-    width: 50%;
+  width: 50%;
 }
 
-@media only screen and (max-width:800px) {
-    .about_couple section {
-        font-size: clamp(1.07125rem, -0.0012rem + 2.86vw, 1.42875rem);
-    }
-
+@media only screen and (max-width: 800px) {
+  .about_couple section {
+    font-size: clamp(1.07125rem, -0.0012rem + 2.86vw, 1.42875rem);
+  }
+  .olive_branch {
+    padding: clamp(4.018125rem, 0.0019rem + 10.71vw, 5.356875rem) 0;
+  }
 }
 
-@media only screen and (max-width:600px) {
-    .about_couple section {
-        font-size: clamp(0.57125rem, -0.0002rem + 2.8571vw, 1.07125rem);
-    }
-
+@media only screen and (max-width: 600px) {
+  .about_couple section {
+    font-size: clamp(0.57125rem, -0.0002rem + 2.8571vw, 1.07125rem);
+  }
+  .olive_branch {
+    padding: clamp(2.143125rem, 0.0003rem + 10.7143vw, 4.018125rem) 0;
+  }
 }
