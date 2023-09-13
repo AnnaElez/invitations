@@ -22,7 +22,7 @@
 .photo {
   background: url("../../public/images/main.JPG") no-repeat;
   height: 100%;
-  background-size: cover;
+  background-size: contain;
 }
 
 .text_wrapper {

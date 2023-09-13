@@ -17,9 +17,24 @@
 }
 
 .about_couple section {
-    width: 600px;
+    width: 45%;
+    line-height: 1.5;
 }
 
 .about_couple img {
-    width: 400px;
+    width: 50%;
+}
+
+@media only screen and (max-width:800px) {
+    .about_couple section {
+        font-size: clamp(1.07125rem, -0.0012rem + 2.86vw, 1.42875rem);
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+    .about_couple section {
+        font-size: clamp(0.57125rem, -0.0002rem + 2.8571vw, 1.07125rem);
+    }
+
 }

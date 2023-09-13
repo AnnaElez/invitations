@@ -6,8 +6,8 @@ const TopNames = () => {
       <div className={classes.photo}>
         <div className={classes.text_wrapper}>
           <h1>
-            Ռուդոլֆ Ֆրանգուլյան և <br />
-            Ռեբեկա Մինասյան
+            Ռուդոլֆ <br /> և <br />
+            Ռեբեկա
           </h1>
 
           <p className={classes.nice_text}>
