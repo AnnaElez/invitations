@@ -13,21 +13,16 @@ const Timeline = () => {
   };
   return (
     <div className={classes.question}>
-      <h3>Um koxmiceq masnakcum harsaniqin?</h3>
+      <h3>Ո՞ւմ կողմից եք հրավիրված</h3>
       <section>
         <button onClick={showGroomTimeline} className={classes.button}>
-          Pesai
+          Փեսայի
         </button>
         <button onClick={showBrideTimeline} className={classes.button}>
-          Harsi
+          Հարսի
         </button>
       </section>
-      {whosTimeline !== "" && (
-        <>
-          <h3>ORAKARG</h3>
-          <WeddingTimeline whosTimeline={whosTimeline} />
-        </>
-      )}
+      {whosTimeline !== "" && <WeddingTimeline whosTimeline={whosTimeline} />}
     </div>
   );
 };
