@@ -29,11 +29,8 @@
 
 .nice_text {
   margin-top: 20px;
-  <<<<<<< Updated upstream width: 41%;
-  font-size: clamp(1.018125rem, 0.0019rem + 2.71vw, 1.356875rem);
-  =======width: 60%;
-  font-size: 20px;
-  >>>>>>>Stashed changes
+  width: 41%;
+  font-size: 20px
 }
 
 @media only screen and (max-width: 600px) {
@@ -41,7 +38,7 @@
     font-size: clamp(0.8rem, 0rem + 4vw, 1.5rem);
   }
 
-  <<<<<<< Updated upstream .nice_text {
+  .nice_text {
     font-size: clamp(0.543125rem, 0.0003rem + 2.7143vw, 1.018125rem);
   }
 
@@ -59,10 +56,3 @@
     font-size: 7px;
   }
 }
-
-=======.nice_text {
-  font-size: clamp(0.62875rem, 0.0002rem + 3.1429vw, 1.17875rem);
-}
-}
-
->>>>>>>Stashed changes
