@@ -16,7 +16,7 @@ const AboutUs = () => {
             անց, հոկտեմբերի 31 նրանց հարսանիքի օընը։
           </p>
         </section>
-        <img src="images/aboutUs.JPG" alt="couple" />
+        <img src="images/aboutUs_cold.JPG" alt="couple" />
       </div>
     </div>
   );

@@ -14,7 +14,7 @@ const Timeline = () => {
   return (
     <div className={classes.question}>
       <h3>Ո՞ւմ կողմից եք հրավիրված</h3>
-      <section>
+      <section className={classes.buttons}>
         <button onClick={showGroomTimeline} className={classes.button}>
           Փեսայի
         </button>
@@ -23,6 +23,10 @@ const Timeline = () => {
         </button>
       </section>
       {whosTimeline !== "" && <WeddingTimeline whosTimeline={whosTimeline} />}
+      <p className={classes.small_text}>
+        Առաջին պարի, հարսի պարի և տորթ կտրելու ժամանակ ուշադիր լինել երեխաներին։
+        Նախապես շնորհակալություն։♥️
+      </p>
     </div>
   );
 };
