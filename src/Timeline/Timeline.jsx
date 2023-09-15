@@ -25,7 +25,7 @@ const Timeline = () => {
       {whosTimeline !== "" && <WeddingTimeline whosTimeline={whosTimeline} />}
       <p className={classes.small_text}>
         Առաջին պարի, հարսի պարի և տորթ կտրելու ժամանակ ուշադիր լինել երեխաներին։
-        Նախապես շնորհակալություն։♥️
+        <br /> Նախապես շնորհակալություն։♥️
       </p>
     </div>
   );

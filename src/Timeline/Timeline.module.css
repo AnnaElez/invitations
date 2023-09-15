@@ -19,6 +19,7 @@
     text-decoration: none;
     transition: 0.3s;
     margin-right: 12px;
+    font-size: 12px;
 }
 
 .button:hover,
@@ -27,7 +28,7 @@
 }
 
 .question h3 {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
     margin-bottom: 12px;
 }
@@ -43,18 +44,18 @@
 .small_text {
     /* margin-top: 20px; */
     font-size: clamp(0.75rem, 0rem + 2vw, 1rem);
-    width: 70%;
+    width: 80%;
     text-align: center;
 }
 
 @media only screen and (max-width:600px) {
-    .question h3 {
+    /* .question h3 {
         font-size: clamp(0.685625rem, -0.0001rem + 3.4286vw, 1.285625rem);
-    }
+    } */
 
     .button {
         padding: 8px 14px;
-        font-size: clamp(0.57125rem, -0.0002rem + 2.8571vw, 1.07125rem);
+        /* font-size: clamp(0.57125rem, -0.0002rem + 2.8571vw, 1.07125rem); */
     }
 
     .buttons {

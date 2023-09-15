@@ -1,12 +1,16 @@
 .link {
   text-decoration: underline 2px #626e57;
 }
-.location, .link {
-  font-size: clamp(0.856875rem, -0.0019rem + 2.29vw, 1.143125rem);
+
+.location,
+.link {
+  font-size: 12px
 }
 
-@media only screen and (max-width: 600px) {
-  .location, .link {
+/* @media only screen and (max-width: 600px) {
+
+  .location,
+  .link {
     font-size: clamp(0.456875rem, -0.0003rem + 2.2857vw, 0.856875rem);
   }
-}
+} */
