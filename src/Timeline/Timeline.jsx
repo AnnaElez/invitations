@@ -27,6 +27,13 @@ const Timeline = () => {
         Առաջին պարի, հարսի պարի և տորթ կտրելու ժամանակ ուշադիր լինել երեխաներին։
         <br /> Նախապես շնորհակալություն։♥️
       </p>
+      {/* <div>
+        <img
+          src="images/footer_image.png"
+          alt="olive"
+          className={classes.footer_img}
+        />
+      </div> */}
     </div>
   );
 };
