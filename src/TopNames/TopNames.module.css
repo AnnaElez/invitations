@@ -4,6 +4,11 @@
   width: 100vw;
 }
 
+.text_wrapper img {
+  margin: 8px 0;
+  width: 160px;
+}
+
 .photo {
   background: url("../../public/images/main_cold.jpg") no-repeat;
   height: 100%;
@@ -16,14 +21,17 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  align-items: center;
   justify-content: center;
-  padding-left: clamp(2.143125rem, 0.0019rem + 5.71vw, 2.856875rem);
+  padding-left: 10px;
+  width: 45%;
 }
 
 .photo h1 {
   /* font-size: clamp(1.5rem, 0rem + 4vw, 2rem); */
   font-size: 20px;
   font-family: CosiArm;
+  text-align: center;
 }
 
 .photo hr {
@@ -31,15 +39,11 @@
   width: 400px;
 }
 
-.nice_text {
-  margin-top: 20px;
-  width: 41%;
-  font-size: 13px;
-}
 
 .date {
-  font-weight: 800;
-  margin-top: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -51,17 +55,17 @@
     font-size: 12px;
   } */
 
-  .text_wrapper {
+  /* .text_wrapper {
     padding-left: clamp(1.143125rem, 0.0003rem + 5.7143vw, 2.143125rem);
-  }
+  } */
 
   /* .wrapper {
     height: clamp(10rem, 0rem + 50vw, 18.75rem);
   } */
 }
 
-@media only screen and (max-width: 320px) {
+/* @media only screen and (max-width: 320px) {
   .nice_text {
     font-size: 7px;
   }
-}
+} */

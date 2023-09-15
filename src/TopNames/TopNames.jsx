@@ -9,11 +9,11 @@ const TopNames = () => {
             Ռուդոլֆ <br /> և <br />
             Ռեբեկա
           </h1>
-
-          <p className={classes.nice_text}>
-            Անհամբեր սպասում ենք ձեզ մեր ընտանիքի ստեղծման օրը
+          <img src="images/olive.png" alt="olive branch" />
+          <p className={classes.date}>
+            հոկտեմբերի 31 <br /> 2023թ
           </p>
-          <p className={classes.date}> հոկտեմբերի 31 2023թ</p>
+       
         </div>
       </div>
     </div>

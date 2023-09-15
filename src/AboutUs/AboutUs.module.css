@@ -30,6 +30,13 @@
     width: 70%;
 }
 
+
+.nice_text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+}
+
 @media only screen and (max-width: 800px) {
     /* .about_couple section {
         font-size: clamp(1.07125rem, -0.0012rem + 2.86vw, 1.42875rem);

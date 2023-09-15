@@ -3,6 +3,9 @@ import classes from "./AboutUs.module.css";
 const AboutUs = () => {
   return (
     <div className={classes.wrapper}>
+      <p className={classes.nice_text}>
+        Անհամբեր սպասում ենք ձեզ մեր ընտանիքի ստեղծման օրը !
+      </p>
       <section className={classes.olive_branch}>
         <img src="images/olive.png" alt="olive branch" />
       </section>
