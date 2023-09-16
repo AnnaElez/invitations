@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@500&family=Rubik:wght@300;400;600;900&display=swap');
+
 .olive_branch {
     display: flex;
     justify-content: center;
@@ -17,12 +19,10 @@
     align-items: center;
 }
 
-.about_couple section {
-    /* width: 45%; */
-    padding: 0 12px;
-    line-height: 1.5;
+.about_couple p {
     font-size: 12px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .about_couple img {
@@ -32,27 +32,7 @@
 
 
 .nice_text {
-    margin-top: 20px;
+    margin: 20px 12px 0;
     text-align: center;
     font-size: 13px;
-}
-
-@media only screen and (max-width: 800px) {
-    /* .about_couple section {
-        font-size: clamp(1.07125rem, -0.0012rem + 2.86vw, 1.42875rem);
-    } */
-
-    /* .olive_branch {
-        padding: clamp(2.67875rem, 0.0012rem + 7.14vw, 3.57125rem) 0;
-    } */
-}
-
-@media only screen and (max-width: 600px) {
-    /* .about_couple section {
-        font-size: clamp(0.57125rem, -0.0002rem + 2.8571vw, 1.07125rem);
-    } */
-
-    /* .olive_branch {
-        padding: clamp(1.42875rem, 0.0002rem + 7.1429vw, 2.67875rem) 0;
-    } */
 }

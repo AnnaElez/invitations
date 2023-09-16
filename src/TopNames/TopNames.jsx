@@ -5,15 +5,15 @@ const TopNames = () => {
     <div className={classes.wrapper}>
       <div className={classes.photo}>
         <div className={classes.text_wrapper}>
+          <p className={classes.invitation}>Հարսանյաց Հրավիրատոմս</p>
           <h1>
             Ռուդոլֆ <br /> և <br />
             Ռեբեկա
           </h1>
           <img src="images/olive.png" alt="olive branch" />
           <p className={classes.date}>
-            հոկտեմբերի 31 <br /> 2023թ
+            Հոկտեմբերի 31 <br /> 2023թ
           </p>
-       
         </div>
       </div>
     </div>

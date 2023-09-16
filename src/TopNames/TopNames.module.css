@@ -1,5 +1,4 @@
 .wrapper {
-  /* height: clamp(18.75rem, 0rem + 50vw, 25rem); */
   height: 40vh;
   width: 100vw;
 }
@@ -12,7 +11,6 @@
 .photo {
   background: url("../../public/images/main_cold.jpg") no-repeat;
   height: 100%;
-  /* background-size: contain; */
   background-size: cover;
   background-position: center;
 }
@@ -27,8 +25,13 @@
   width: 45%;
 }
 
+.invitation {
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
 .photo h1 {
-  /* font-size: clamp(1.5rem, 0rem + 4vw, 2rem); */
   font-size: 20px;
   font-family: CosiArm;
   text-align: center;
@@ -45,27 +48,3 @@
   font-size: 14px;
   text-align: center;
 }
-
-@media only screen and (max-width: 600px) {
-  /* .photo h1 {
-    font-size: clamp(0.8rem, 0rem + 4vw, 1.5rem);
-  } */
-
-  /* .nice_text {
-    font-size: 12px;
-  } */
-
-  /* .text_wrapper {
-    padding-left: clamp(1.143125rem, 0.0003rem + 5.7143vw, 2.143125rem);
-  } */
-
-  /* .wrapper {
-    height: clamp(10rem, 0rem + 50vw, 18.75rem);
-  } */
-}
-
-/* @media only screen and (max-width: 320px) {
-  .nice_text {
-    font-size: 7px;
-  }
-} */

@@ -4,20 +4,14 @@ const AboutUs = () => {
   return (
     <div className={classes.wrapper}>
       <p className={classes.nice_text}>
-        Անհամբեր սպասում ենք ձեզ մեր ընտանիքի ստեղծման օրը !
+        Մենք ընտանիք ենք կազմում։ Հրավիրում ենք կիսելու մեզ հետ մեր կյանքի
+        լուսավոր օրը։
       </p>
       <section className={classes.olive_branch}>
         <img src="images/olive.png" alt="olive branch" />
       </section>
       <div className={classes.about_couple}>
-        <section>
-          <p>
-            Մենք ծանոթացանք քոլեջում երբ 14 տարեկան էինք։ Այդ վախտ Ռեբեկան չեր
-            պատկերացնում որ մի օր նրանք կամուսնան, բայց Ռուդոլֆը վստահ ա եղել։
-            Պարզվում է որ եթե մի բան շատ ուզենաս այդ անպայման կկատարվի։ 10 տարի
-            անց, հոկտեմբերի 31 նրանց հարսանիքի օընը։
-          </p>
-        </section>
+        <p>Все, что существует на свете, когда-то было мечтой</p>
         <img src="images/aboutUs_cold.jpg" alt="couple" />
       </div>
     </div>

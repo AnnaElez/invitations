@@ -24,16 +24,9 @@ const Timeline = () => {
       </section>
       {whosTimeline !== "" && <WeddingTimeline whosTimeline={whosTimeline} />}
       <p className={classes.small_text}>
-        Առաջին պարի, հարսի պարի և տորթ կտրելու ժամանակ ուշադիր լինել երեխաներին։
-        <br /> Նախապես շնորհակալություն։💚
+        Հարսանիքի ընթացքում պասիվ լինել արգելվում է :)
+        <br /> Սիրով սպասում ենք քեզ💚
       </p>
-      {/* <div>
-        <img
-          src="images/footer_image.png"
-          alt="olive"
-          className={classes.footer_img}
-        />
-      </div> */}
     </div>
   );
 };
